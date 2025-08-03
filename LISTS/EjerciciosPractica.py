@@ -48,7 +48,7 @@ print("El nombre menor en orden alfabético es:", menor.capitalize()) """
 # si se repite dentro de la lista (es decir si dicho valor se encuentra en 
 # 2 o más posiciones en la lista)
 
-lista = [1,4,5,1,2,5]
+lista = [1,4,5,1,5,5]
 
 def encuentra_mayor(lista):
     mayor = lista[0]
@@ -57,5 +57,20 @@ def encuentra_mayor(lista):
             mayor = lista[x]
     return mayor
 
+def encuentra_repetido(mayor,lista):
+    contador = 0
+    for x in range(len(lista)):
+        if lista[x] == mayor:
+            contador+=1
+    return contador    
+
+
 mayor = encuentra_mayor(lista)
-print(mayor)
+contador = encuentra_repetido(mayor,lista)
+
+print(f"El numero mayor de la lista es: {mayor}")
+
+if contador > 1:
+    print(f"Este valor se repite {contador} veces en la lista") 
+else:
+    print("El número no se repite en la lista")    
