@@ -1,0 +1,12 @@
+Moverse entre archivos = ctrl + p
+Seleccionar varias coincidencias = ctrl + d (ctrl + u reversa la seleccion)
+Cambiar etre archivos abiertos = ctrl + tab
+Ir a un alinea especifica = ctrl + g
+Seleccionar la una linea = ctrl + l
+Mover una linea de lugar = alt + flecha arriba o abajo
+Duplicar una linea = shif + alt + flecha arriba o abajo
+Comentar un bloque de codigo = shif +alt + a
+Hacer scroll = ctrl + flecha arriba o abajo
+Abrir o cerrar la barra lateral = ctrl + b
+Barra de busqueda = ctrl + shif + f
+ver los parametros de una funcion = ctrl + shif + espacio
